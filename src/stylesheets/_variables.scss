@@ -1,0 +1,17 @@
+$colors: (
+  primary: #736fdf,
+  secondary: #81d398,
+  white: #fff
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+$desktop: 640px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.min.css';
+import './stylesheets/style.min.css';
 import LandingPage from './pages/LandingPage';
 
 class App extends Component {
