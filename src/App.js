@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './stylesheets/style.min.css';
 import LandingPage from './pages/LandingPage';
+import ServicePage from './pages/ServicePage';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <LandingPage />
+        <ServicePage />
       </div>
     );
   }

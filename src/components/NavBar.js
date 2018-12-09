@@ -15,9 +15,9 @@ const NavBar = () => {
         </div>
         <div className="nav-wrapper">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Why Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Why Us</a></li>
+            <li><a href="#service">Contact Us</a></li>
             <li><a href="#">Login</a></li>
             <li><a href="#">Support</a></li>
           </ul>

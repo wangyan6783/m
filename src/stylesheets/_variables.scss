@@ -1,7 +1,8 @@
 $colors: (
   primary: #736fdf,
   secondary: #81d398,
-  white: #fff
+  white: #fff,
+  grey: #666
 );
 
 @function color($color-name) {

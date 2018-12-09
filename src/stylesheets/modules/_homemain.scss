@@ -1,0 +1,91 @@
+
+.homemain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -48%);
+  text-align: center;
+
+  h1 {
+    font-size: 20px;
+    font-weight: 400;
+    color: color(white);
+    letter-spacing: 2px;
+    @include desktop {
+      font-size: 32px;
+    }
+  }
+
+  span {
+    color: color(secondary);
+  }
+
+  .search-input {
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 10px;
+    @include desktop {
+      width: 65%;
+      margin: 12px;
+      padding: 16px;
+    }
+  }
+
+  .search-btn {
+    color: color(white);
+    background: color(secondary);
+    padding: 8px 10px;
+    border: none;
+    font-size: 12px;
+    font-weight: lighter;
+    border-radius: 10px;
+    margin: 10px;
+    @include desktop {
+      margin: 0px;
+      padding: 13px;
+      font-size: 14px;
+    }
+  }
+
+  .action-text {
+    color: color(white);
+    font-size: 12px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 25px;
+    @include desktop {
+      margin-top: 52px;
+    }
+  }
+
+  img {
+    @include desktop {
+      margin-top: 28px;
+    }
+  }
+
+  .main-text {
+    color: color(grey);
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 8px;
+    @include desktop {
+      font-size: 13px;
+      margin-top: 18px;
+    }
+  }
+
+  .account-btn {
+    color: color(white);
+    background: color(primary);
+    padding: 5px 15px;
+    border: none;
+    font-size: 10px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+}
